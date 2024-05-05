@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@1,500&display=swap" rel="stylesheet">
+
+</head>
+<style>
+    .menu {
+        display: flex;
+        justify-content: flex-end;
+        width: 90%;
+        color: rgba(128, 128, 128, 0.588);
+    }
+
+    .nav-item {
+        padding: 25px;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .container {
+        display: grid;
+
+
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+
+        grid-gap: 10px 10px;
+        justify-items: stretch;
+        align-items: stretch;
+
+    }
+
+    .imgcontainer {
+        justify-content: flex-end;
+        top: 50px;
+        right: 70px;
+        position: absolute;
+    }
+</style>
+<header>
+    <div class="container">
+        <img class="logo" src="images/Mirage.png">
+        <nav class="menu">
+            <span class="nav-item">Home</span>
+            <span class="nav-item">About</span>
+            <span class="nav-item">Prodact</span>
+            <span class="nav-item">Pricing</span>
+        </nav>
+    </div>
+</header>
+
+<body>
+    <article>
+        <div style="margin-bottom:50px;">
+            <h2 style="background-color:white ; color: #F78CB6; ">__Creative Agency</h2>
+        </div>
+        <div style="margin-bottom: 50px;">
+            <h1 style="background-color: white; color:#56597A">We Deliver The Best Prodacts For You</h1>
+        </div>
+        <div style="margin-bottom: 50px;">
+            <h3 style="background-color: white; color:#919299">Design is the creation of a plan or...</h3>
+            <div style="margin-bottom:50px ;">
+                <button
+                    style="background-color:#F78CB6; color: white; width: 100px; height: 30px;  margin: 10px; border: aliceblue;">Get
+                    Started
+                </button>
+            </div>
+    </article>
+    <article>
+
+        <div class="imgcontainer">
+            <img src="images/Hero Image.png" alt="foto" style="height: 410px; width: 358px; top: 100px; right: 400px;">
+        </div>
+    </article>
+    <article>
+        <div style="margin-bottom: 50px;">
+            <h2 style="background-color:white ; color: #F78CB6;  text-align: center;">
+                Our services</h2>
+        </div>
+        <div>
+            <h1 style="background-color:white; color: #56597A; text-align: center; ">Why People choose us</h1>
+        </div>
+    </article>
+
+    <div class="grid">
+        <div class="cell cell-1" style="background-color: #FFF1F9 ; color: #56597A; font-weight: bolder;">Design
+        </div>
+        <div class="cell cell-2" style="background-color: #FFF1F9 ; color: #56597A ;font-weight: bolder;">Development
+        </div>
+        <div class="cell cell-3" style="background-color: #F78CB6 ; color: #56597A ;font-weight: bolder;">Branding</div>
+        <div class="cell cell-4" style="background-color: #FFF1F9 ; color: #56597A ;font-weight: bolder;">Illustration
+        </div>
+    </div>
+
+    </div>
+
+
+</body>
+
+</html>
